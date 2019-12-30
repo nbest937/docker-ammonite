@@ -24,7 +24,7 @@ RUN coursier fetch \
  org.apache.spark:spark-sql:2.4.0
  
 RUN coursier fetch \
- -r jitpack
+ -r jitpack \
  com.github.nbest937:ammonite-spark:fc59944f
  
 RUN coursier bootstrap \
